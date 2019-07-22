@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff9ed;
+    font:14px "微软雅黑";
+}
+ul li{
+    list-style: none;
+}
+.cen{
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 128px;
+    background: url(../images/head_bg.jpg) repeat-x;
+}
+.header .center{
+    width: 980px;
+    height: 128px;
+}
+.header h1{
+    float: left;
+    position: relative;
+    left: -999px;
+}
+.header .center ul{
+  padding-left: 178px;
+  height: 128px; 
+  background: url(../images/logo.png) no-repeat; 
+}
+.header .center ul li{
+    float: left;
+}
+.header .center a{
+    display: block;
+    width: 119px;
+    height: 91px;
+    text-align: center;
+    line-height: 70px;
+    text-decoration:none;
+    color: #ffffff;
+    font-size: 16px;
+}
+.header .center a:hover ,.header .center a:active{
+   background: url(../images/xuanfu.png)no-repeat;
+}
+
+
+.content{
+   width: 980px;  
+
+}
+.content .banner{
+   height: 373px;
+   background: url(../images/banner.jpg) no-repeat center top;
+}
+.content .content_top {
+    background: #EC6E47;
+    padding: 10px 0 10px 36px;
+}
+.content .content_top .content_bg {
+    overflow: hidden;
+    background:white;
+    width: 908px;
+    padding: 5px 0 5px 8px; 
+}
+.content .content_top ul{
+    float: left;
+    width: 279px;
+margin-right: 5px;
+}
+.content .content_top ul li{
+    overflow: hidden;
+   margin-top: 5px;
+}
+.content  img {
+    float: left;
+}
+.content .content_top ul .top1 span {
+    float: left; 
+    display: block;
+    width: 117px;
+    height: 169px;
+}
+.content .content_top ul  .top1 a{
+    display: block;
+    width: 117px;
+    height: 169px;
+    color: #fff;
+    background:#000;
+    text-align: center;
+    line-height: 169px;
+    text-decoration: none;
+}
+.content .content_top ul  .top1 a:hover{
+    background: #EC6E47;
+}
+/* 第二个ul */
+.content .content_top ul .top2 span {
+    float: left; 
+    display: block;
+    width: 117px;
+    height: 137px;
+}
+.content .content_top ul  .top2 a{
+    display: block;
+    width: 117px;
+    height: 137px;
+    color: #fff;
+    background:#000;
+    text-align: center;
+    line-height: 137px;
+    text-decoration: none;
+}
+.content .content_top ul  .top2 a:hover{
+    background: #EC6E47;
+}
+
+/* 第三个ul */
+.content .content_top ul .top3 span {
+    float: left; 
+    display: block;
+    width: 117px;
+    height: 117px;
+}
+.content .content_top ul  .top3 a{
+    display: block;
+    width: 117px;
+    height: 117px;
+    color: #fff;
+    background:#000;
+    text-align: center;
+    line-height: 117px;
+    text-decoration: none;
+}
+.content .content_top ul  .top3 a:hover{
+    background: #EC6E47;
+}
+/* 第三个ul */
+.content .content_top ul .top4 span {
+    float: left; 
+    display: block;
+    width: 117px;
+    height: 188px;
+}
+.content .content_top ul  .top4 a{
+    display: block;
+    width: 117px;
+    height: 188px;
+    color: #fff;
+    background:#000;
+    text-align: center;
+    line-height: 188px;
+    text-decoration: none;
+}
+.content .content_top ul  .top4 a:hover{
+    background: #EC6E47;
+}
+/* 第五个ul */
+.content .content_top .left_3{
+    width: 322px;
+    float: right;
+    margin-right: 10px;
+}
+.content .content_top ul .top5 span {
+    float: left; 
+    display: block;
+    width: 117px;
+    height: 314px;
+}
+.content .content_top ul  .top5 a{
+    display: block;
+    width: 117px;
+    height: 314px;
+    color: #fff;
+    background:#000;
+    text-align: center;
+    line-height: 314px;
+    text-decoration: none;
+}
+.content .content_top ul  .top5 a:hover{
+    background: #EC6E47;
+}
+
+.content_bottom{
+    width: 980px;
+    
+}
+
+.content_bottom .q{
+    margin-top: 35px;
+    width: 180px;
+    color: #fff;
+    height: 20px;
+    background: #EC6E47;
+    text-align: center;
+    line-height: 20px;
+}
+
+.content_bottom .bottom_bg{
+    overflow: hidden;
+    width: 980px;
+    background: #fff;
+    padding: 10px 0 0 10px;
+}
+
+.content .content_bottom ul{
+ 
+    float: left;
+    width: 229px;
+}
+.content .content_bottom ul li{ 
+      border: 1px solid #dddddd;
+    overflow: hidden;
+   margin-top: 5px;
+   padding-left: 20px;
+}
+.content  img {
+    float: left;
+}
+
+.content .content_bottom h3{
+    width: 229px;
+    height: 30px;
+    font: 16px/30px "微软雅黑";
+    text-align: center;
+}
+
+.content .content_bottom ul .top1 span {
+    float: left; 
+    display: block;
+    width: 157px;
+    height: 38px;
+}
+.content .content_bottom ul  .top1 a{
+    display: block;
+    width: 157px;
+    height: 38px;
+    color: #fff;
+    background:#EC6E47;
+    text-align: center;
+    line-height: 38px;
+    text-decoration: none;
+}
+.content .content_bottom ul  .top1 a:hover{
+    color: rgb(236, 184, 71);
+}
+
+
+.footer{
+    margin-top:30px;
+    background: #000;
+    width: 100%;
+     height: 60px;
+     line-height: 30px;
+
+}
+.footer p{ 
+    color: #fff;
+    text-align: center;
+}
